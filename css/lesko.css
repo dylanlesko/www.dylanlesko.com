@@ -1,0 +1,1306 @@
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/ODszJI8YqNw8V2xPulzjO_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/iQ9VJx1UMASKNiGywyyCXvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/WkvQmvwsfw_KKeau9SlQ2_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/gYAtqXUikkQjyJA1SnpDLvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/Wu5Iuha-XnKDBvqRwQzAG_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/sDGTilo5QRsfWu6Yc11AXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/oxrPYIm05JrY_0rFIEQ_oRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/4z2U46_RRLOfkoHsWJG3vxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/2vaWVxeAxHVkFcnCBCQCyRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/M-Ii49WH_TYYnOjQyLgTMBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/nsLtvfQoT-rVwGTHHnkeJhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/0ihfXUL2emPh0ROJezvraFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+body
+{
+    background-image: url("../img/bg.png");
+    color: #585856;
+    font-family: Ubuntu, sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0;
+}
+p
+{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+a
+{
+    padding: 0;
+    margin: 0;
+}
+
+#Container
+{
+    max-width: 1250px;
+    height: 94.5%;
+    margin: 0 auto !important;
+    float: none !important;
+    background-color: #3b424d;
+    position: relative;
+}
+
+/* Header and Navigation */
+#Header
+{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    background: -webkit-radial-gradient(farthest-side circle at center, #555f6f 60%, #3b424d 100%);
+    background: -moz-radial-gradient(farthest-side circle at center, #555f6f 60%, #3b424d 100%);
+    background: -o-radial-gradient(farthest-side circle at center, #555f6f 60%, #3b424d 100%);
+    background: radial-gradient(farthest-side circle at center, #555f6f 60%, #3b424d 100%);
+    background-size: 100% 1250px;
+    z-index: 1;
+}
+#Logo
+{
+    margin-top: 2.5%;
+    max-height: 100%;
+    max-width: 25%;
+    font-size: 2em;
+    margin-left: 5%;
+    font-family: "Ubuntu", sans-serif;
+    float: left;
+    color: #c3c3c3;
+
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+}
+#Logo:hover
+{
+    cursor: default;
+    color: white;
+}
+@keyframes navFade {
+    0% {
+        color: #c3c3c3;
+        opacity: 0;
+    }
+
+    100% {
+        color: white;
+        opacity: 1;
+    }
+}
+#Nav
+{
+    position: relative;
+    height: 100%;
+    width: 75%;
+    float: right;
+    list-style-type: none;
+    margin-right: 5%;
+    padding:0;
+}
+#Nav > li
+{
+    float: right;
+    margin-left: 2%;
+}
+#Nav > li > a
+{
+    color: #c3c3c3;
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding-right: 12px;
+    position: relative;
+    border-bottom: 1px solid rgba(195, 195, 195, 0);
+
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+}
+#Nav > li > a:before {
+    position: absolute;
+    right: -1px;
+    top: 1px;
+    font-size: 7px;
+    width: 8px;
+    height: 8px;
+    content: "\f078";
+    font-family: FontAwesome, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+
+    -webkit-animation-name: navFade;
+    -moz-animation-name: navFade;
+    -o-animation-name: navFade;
+    animation-name: navFade;
+}
+#Nav > li > a:hover
+{
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+#Nav > li:hover > a:before
+{
+    color: white;
+}
+#Logo, #Nav
+{
+    display:inline;
+}
+
+
+
+
+/* End Header */
+/* Main Body */
+/*	Animations
+------------------------------------------ */
+
+.boat {
+    -webkit-animation: rock-boat 12s ease-in-out infinite;
+}
+.boat::after {
+    -webkit-animation: steam 4s 2s infinite;
+}
+
+
+/*	Keyframes - WebKit only
+------------------------------------------ */
+
+@-webkit-keyframes rock-boat {
+    0%
+    {
+        visibility: visible;
+        -webkit-transform: rotate(0deg) translateY(0);
+    }
+    100%
+    {
+        visibility: visible;
+        -webkit-transform: rotate(-5deg) translateY(1%);
+    }
+}
+@-webkit-keyframes steam {
+    40%,
+    60%  { opacity: 1; }
+    100% { -webkit-transform: translate(-15%, -35%) rotateZ(20deg); }
+}
+@keyframes bgFade
+{
+    0% {
+        opacity:1;
+    }
+    17% {
+        opacity:1;
+    }
+    25% {
+        opacity:0;
+    }
+    92% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-moz-keyframes bgFade
+{
+    0% {
+        opacity:1;
+    }
+    17% {
+        opacity:1;
+    }
+    25% {
+        opacity:0;
+    }
+    92% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+#CarouselFrame
+{
+    height: 40%;
+}
+#Carousel
+{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-size: 100%;
+    background-color: #3b424d;
+    height: 39%;
+    width: 100%;
+    overflow: hidden;
+
+}
+#Carousel img
+{
+    width: 100%;
+    top: -50%;
+}
+
+.Carouselimg1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    -webkit-animation-duration: 32s;
+    -moz-animation-duration: 32s;
+    -o-animation-duration: 32s;
+    animation-duration: 32s;
+
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    -webkit-animation-delay : 0s;
+    -moz-animation-delay : 0s;
+    -o-animation-delay : 0s;
+    animation-delay : 0s;
+
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: bgFade;
+    -moz-animation-name: bgFade;
+    -o-animation-name: bgFade;
+    animation-name: bgFade;
+}
+.Carouselimg2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+    -webkit-animation-duration: 32s;
+    -moz-animation-duration: 32s;
+    -o-animation-duration: 32s;
+    animation-duration: 32s;
+
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    -webkit-animation-delay : 8s;
+    -moz-animation-delay : 8s;
+    -o-animation-delay : 8s;
+    animation-delay : 8s;
+
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: bgFade;
+    -moz-animation-name: bgFade;
+    -o-animation-name: bgFade;
+    animation-name: bgFade;
+}
+.Carouselimg3
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    -webkit-animation-duration: 32s;
+    -moz-animation-duration: 32s;
+    -o-animation-duration: 32s;
+    animation-duration: 32s;
+
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    -webkit-animation-delay : 16s;
+    -moz-animation-delay : 16s;
+    -o-animation-delay : 16s;
+    animation-delay : 16s;
+
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    overflow: hidden;
+    -webkit-animation-name: bgFade;
+    -moz-animation-name: bgFade;
+    -o-animation-name: bgFade;
+    animation-name: bgFade;
+}
+.Carouselimg4
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    -webkit-animation-duration: 32s;
+    -moz-animation-duration: 32s;
+    -o-animation-duration: 32s;
+    animation-duration: 32s;
+
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    -webkit-animation-delay : 24s;
+    -moz-animation-delay : 24s;
+    -o-animation-delay : 24s;
+    animation-delay : 24s;
+
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    overflow: hidden;
+    -webkit-animation-name: bgFade;
+    -moz-animation-name: bgFade;
+    -o-animation-name: bgFade;
+    animation-name: bgFade;
+}
+
+
+#Carousel .boat
+{
+    width: 20%;
+    padding-top: 24%;
+    padding-left: 50%;
+    visibility: hidden;
+}
+#Carousel .boat img
+{
+    width: 50%;
+}
+#Carousel .boat::after
+{
+    content: "";
+    padding-top: 45.5%;
+    padding-left: 55%;
+    background: url("../img/steam.png") no-repeat;
+    background-size: 26%;
+    opacity: 0;
+}
+
+
+#About
+{
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: #3b424d;
+    max-width: 100%;
+}
+.AboutTitle
+{
+    font-size: 2em;
+    width:15%;
+    padding: 20px 0 8px;
+    margin: 0 0 20px 0;
+    color: #c3c3c3;
+    border-bottom: 2px solid #a3b5cc;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #000;
+
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+
+
+}
+.AboutTitle:Hover
+{
+    color: white;
+    cursor: default;
+    border-bottom: 2px solid white;
+
+}
+
+.AboutText
+{
+    width: 95%;
+    margin: 0 0 5% 0;
+    color: #dddddd;
+    font-family: "Ubuntu", sans-serif;
+    padding-bottom: 8px;
+}
+.AboutText p
+{
+    font-size: 1.5em;
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#Blurbs
+{
+    background-color: white;
+    height: 20%;
+}
+#Blurbs p
+{
+    font-size: 1em;
+    color: #4b4b4b;
+    margin: 0 0 20px 0;
+
+}
+@-webkit-keyframes fadeInUp
+{
+    0%
+    {
+        visibility: visible !important;
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%
+    {
+        visibility: visible !important;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeInUp
+{
+    0%
+    {
+        visibility: visible !important;
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%
+    {
+        visibility: visible !important;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.blurb-style
+{
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #e7e7e7;
+    height: 100%;
+    width: 100%;
+    cursor: default;
+}
+.blurb-style-title
+{
+    font-size: 1.5em;
+    color: #4b4b4b;
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+}
+.blurb-style-title i
+{
+    display: block;
+    float: none;
+    font-size: 56px;
+    margin: 0 0 10px 0;
+    color: #4b4b4b;
+}
+
+.blurb-box-1
+{
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    background: transparent;
+    margin: 3% 2% 3% 7%;
+    width: 18%;
+    height: 70%;
+    float: left;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    -webkit-animation-delay : 0.5s;
+    -moz-animation-delay : 0.5s;
+    -o-animation-delay : 0.5s;
+    animation-delay : 0.5s;
+
+    overflow: hidden;
+    -webkit-animation-name: fadeInUp;
+    -moz-animation-name: fadeInUp;
+    -o-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+
+}
+.blurb-box-2
+{
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 4px;
+    background: transparent;
+    margin: 3% 2%;
+    width: 18%;
+    height: 70%;
+    float: left;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    -webkit-animation-delay : 1s;
+    -moz-animation-delay : 1s;
+    -o-animation-delay : 1s;
+    animation-delay : 1s;
+
+    overflow: hidden;
+    -webkit-animation-name: fadeInUp;
+    -moz-animation-name: fadeInUp;
+    -o-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.blurb-box-3
+{
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 4px;
+    background: transparent;
+    margin: 3% 2%;
+    width: 18%;
+    height: 70%;
+    float: left;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    -webkit-animation-delay : 1.5s;
+    -moz-animation-delay : 1.5s;
+    -o-animation-delay : 1.5s;
+    animation-delay : 1.5s;
+
+    overflow: hidden;
+    -webkit-animation-name: fadeInUp;
+    -moz-animation-name: fadeInUp;
+    -o-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.blurb-box-4
+{
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 4px;
+    background: transparent;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    width: 18%;
+    height: 70%;
+    float: left;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    -webkit-animation-delay : 2s;
+    -moz-animation-delay : 2s;
+    -o-animation-delay : 2s;
+    animation-delay : 2s;
+
+    overflow: hidden;
+    -webkit-animation-name: fadeInUp;
+    -moz-animation-name: fadeInUp;
+    -o-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.blurb-box-1:hover i
+{
+    color: rgba(128, 128, 0,0.5);
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+}
+.blurb-box-2:hover i
+{
+    color: rgba(50,50,50,0.5);
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+}
+.blurb-box-3:hover i
+{
+    color: rgba(0,0,153,0.5);
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+}
+.blurb-box-4:hover i
+{
+    color: rgba(0,61,0,0.5);
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+}
+
+/* Footer */
+#footer
+{
+    height: 5%;
+    max-width: 1250px;
+
+    margin: 0 auto !important;
+    float: none !important;
+    background-color: #292b32;
+}
+#copyright
+{
+    max-width: 25%;
+    font-size: 2em;
+    font-family: "Ubuntu", sans-serif;
+    margin-left: 5%;
+
+}
+#copyright, p
+{
+    padding-top: 2%;
+
+    float: left;
+    color: #c3c3c3;
+}
+
+
+
+
+#media
+{
+    height: 100%;
+    width: 75%;
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+    margin-right: 5%;
+}
+#footer #media .media-icon
+{
+    float: right;
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#footer #media .media-icon:hover
+{
+    background-color: transparent;
+    border: none;
+}
+
+#media .facebook-icon
+{
+
+    background-image: url("../img/fb.png");
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #e8e8e8;
+}
+
+#media .facebook-icon:hover
+{
+    background-color: #e95a00;
+    border: 1px solid #b64600;
+}
+#media .github-icon
+{
+    background-image: url("../img/github.png");
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #e8e8e8;
+}
+
+#media .github-icon:hover
+{
+    background-color: #e95a00;
+    border: 1px solid #b64600;
+}
+#media .linkedin-icon
+ {
+     background-image: url("../img/linkedin.png");
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     border: 1px solid #e8e8e8;
+ }
+
+#media .linkedin-icon:hover
+{
+    background-color: #e95a00;
+    border: 1px solid #b64600;
+}
+#media .google-icon
+{
+    background-image: url("../img/gplus.png");
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #e8e8e8;
+}
+
+#media .google-icon:hover
+{
+    background-color: #e95a00;
+    border: 1px solid #b64600;
+}
+#media .twitter-icon
+{
+    background-image: url("../img/twitter.png");
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #e8e8e8;
+}
+
+#media .twitter-icon:hover
+{
+    background-color: #e95a00;
+    border: 1px solid #b64600;
+}
+
+
+.media-icon
+{
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    border: 1px solid #f3f3f3;
+    -webkit-box-shadow: inset #e6e6e6 0 0 6px;
+    -moz-box-shadow: inset #e6e6e6 0 0 6px;
+    box-shadow: inset #e6e6e6 0 0 6px;
+    display: inline-block;
+    margin-top: 2%;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    float: left;
+    background: #fafafa no-repeat 0 -40px;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+.media-icon:hover
+{
+    background-position: 0 0;
+    -webkit-box-shadow: inset #c8c8c8 0 1px 0;
+    -moz-box-shadow: inset #c8c8c8 0 1px 0;
+    box-shadow: inset #c8c8c8 0 1px 0;
+}
+
+.sep
+{
+    max-width: 1250px;
+    height: 0.5%;
+
+    margin: 0 auto !important;
+    float: none !important;
+    background-color: #f9f9f9;
+}
+
+
+
+
+
+
+@media screen
+and (max-width: 480px)
+and (orientation: portrait)
+{
+    html
+    {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body
+    {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #Container
+    {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #Header
+    {
+        width: 100%;
+        height: 60px;
+    }
+    #Logo
+    {
+        visibility: hidden;
+        margin: 0;
+        width: 0;
+    }
+    #Nav
+    {
+        float:left;
+        height: 100%;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+    #Nav li
+    {
+        padding-left: 5%;
+        padding-top: 20px;
+        float: left;
+        margin: 0;
+    }
+    #Nav ul
+    {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #Carousel
+    {
+        height: 0;
+        margin: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    #CarouselFrame
+    {
+        height: 0;
+        margin: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    #About
+    {
+        width: 100%;
+        height: 450px;
+        margin: 0;
+        padding: 0;
+    }
+    .AboutTitle
+    {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .AboutText
+    {
+        height: 20%;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    #Blurbs
+    {
+        height: 425px;
+        background-color: white;
+        margin: 0;
+        padding: 25px 0 0;
+    }
+    .blurb-box-1
+    {
+        width: 100%;
+        height: 100px;
+        margin: 0;
+    }
+    .blurb-box-1 p
+    {
+        visibility: hidden;
+    }
+    .blurb-box-2
+    {
+        width: 100%;
+        height: 100px;
+        margin: 0;
+    }
+    .blurb-box-2 p
+    {
+        visibility: hidden;
+    }
+    .blurb-box-3
+    {
+        width: 100%;
+        height: 100px;
+        margin: 0;
+    }
+    .blurb-box-3 p
+    {
+        visibility: hidden;
+    }
+    .blurb-box-4
+    {
+        width: 100%;
+        height: 100px;
+        margin: 0;
+    }
+    .blurb-box-4 p
+    {
+        visibility: hidden;
+    }
+    #footer
+    {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+    #copyright
+    {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+    .sep
+    {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+    .media
+    {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+    .media-icon
+    {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+    .media-overlay
+    {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+}
+
+
+@media screen
+and (max-height: 480px)
+and (orientation: landscape)
+{
+    html
+    {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body
+    {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #Container
+    {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #Header
+    {
+        width: 100%;
+        height: 60px;
+    }
+    #Logo
+    {
+        visibility: hidden;
+        margin: 0;
+        width: 0;
+    }
+    #Nav
+    {
+        float:left;
+        height: 100%;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+    #Nav li
+    {
+        padding-left: 5%;
+        padding-top: 20px;
+        float: left;
+        margin: 0;
+    }
+    #Nav ul
+    {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #Carousel
+    {
+        height: 0;
+        margin: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    #CarouselFrame
+    {
+        height: 0;
+        margin: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    #About
+    {
+        width: 100%;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    .AboutTitle
+    {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .AboutText
+    {
+        height: 20%;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    #Blurbs
+    {
+        height: 125px;
+        background-color: white;
+        margin: 0;
+        padding: 25px 0 0;
+    }
+    .blurb-box-1
+    {
+        width: 25%;
+        height: 100px;
+        margin: 0;
+    }
+    .blurb-box-1 p
+    {
+        visibility: hidden;
+    }
+    .blurb-box-2
+    {
+        width: 25%;
+        height: 100px;
+        margin: 0;
+    }
+    .blurb-box-2 p
+    {
+        visibility: hidden;
+    }
+    .blurb-box-3
+    {
+        width: 25%;
+        height: 100px;
+        margin: 0;
+    }
+    .blurb-box-3 p
+    {
+        visibility: hidden;
+    }
+    .blurb-box-4
+    {
+        width: 25%;
+        height: 100px;
+        margin: 0;
+    }
+    .blurb-box-4 p
+    {
+        visibility: hidden;
+    }
+    #footer
+    {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+    #copyright
+    {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+    .sep
+    {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+    .media
+    {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+    .media-icon
+    {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+    .media-overlay
+    {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+}
